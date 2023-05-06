@@ -2,8 +2,8 @@ body{
     position: center;
     margin: 5px;
     padding: 5px;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-family:'Heebo', 'Roboto', Helvetica, sans-serif;
+    font-size: 10px;
 }
 
 .header{
@@ -16,6 +16,9 @@ body{
     border-style: solid;
     border-width: 2px;
     border-color: blue;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 h2{
@@ -27,16 +30,17 @@ h2{
     border-radius: 1px;
     border-style: solid;
     border-width: 2px;
-    border-color: blue;
+    border-color: red;
+    border-radius: 10px;
 }
 
 .profile_picture {
     position: center;
-    width: 150px;
+    width: 75px;
     height: auto;
-    margin: 12px;
+    margin: 6px;
     border-style: solid;
-    border-width: 3px;
+    border-width: 1px;
     border-color: black;
 }
 
@@ -57,6 +61,13 @@ h2{
     text-decoration: underline;
 }
 
+
 .last-update {
+    background-color: #20A39E;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 10px;
+    text-align: center;
     color: gold;
 }

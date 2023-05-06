@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 230 Assignment Portal</title>
     <meta name="description" content="Assignment portal for Jake Davis in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -17,7 +22,7 @@
         <hr>
         <ul>
             <li>Lesson 02: <a href="Title">Title</a></li>
-            <li>Lesson 03: <a href="Title">Title</a></li>
+            <li><a href="lesson3">Carlsbad Chamber of Commerce Site Plan</a></li>
             <li>Lesson 04: <a href="Title">Title</a></li>
             <li>Lesson 05: <a href="Title">Title</a></li>
             <li>Lesson 06: <a href="Title">Title</a></li>
@@ -30,16 +35,11 @@
     </main>
     <footer class="footer">
         <p>
-            &copy; 2023 | Jake Davis | Washington | <span>BYUI Online Learning</span>
+            &copy; <span id="year"></span> | Jake Davis | Washington | <span>BYUI Online Learning</span>
         </p>
     </footer>
-        <p class="last-update" id="lastModified"></p>
-        <script src="scripts/last_modified.js" defer></script>
-    <script>
-        WebFont.load({
-        google: {
-            families: ['Roboto'] 
-        }});
+        <p class="last-update" id="date-time"></p>
+        <script src="scripts/last_modified.js"></script>
     </script>
 </body>
 </html>
